@@ -42,8 +42,8 @@ export default function Sidebar({
             justifyContent: "center", fontSize: 18,
           }}>🌱</div>
           <div>
-            <div style={{ fontSize: 16, fontWeight: 600, letterSpacing: "-0.3px" }}>AgroIA</div>
-            <div style={{ fontSize: 11, color: "#888", marginTop: 1 }}>Riego inteligente</div>
+            <div style={{ fontSize: 16, fontWeight: 600, letterSpacing: "-0.3px" }}>HIDROCIENTE IA</div>
+            <div style={{ fontSize: 11, color: "#888", marginTop: 1 }}>Tu mejor aliado en el campo</div>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ export default function Sidebar({
               <div style={{ fontSize: 13, fontWeight: activeSessionId === s.id ? 500 : 400, color: "#1a1a18", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
                 {s.name}
               </div>
-              
+
             </div>
             {sessions.length > 1 && (
               <button
@@ -142,7 +142,7 @@ export default function Sidebar({
 
       {/* Footer */}
       <div style={{ padding: "10px 16px", borderTop: "0.5px solid #e0ddd5", fontSize: 11, color: "#bbb" }}>
-        AgroIA · Lima, Perú
+        HIDROCIENTE IA · Lima, Perú
       </div>
     </aside>
   );
