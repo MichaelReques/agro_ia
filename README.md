@@ -1,4 +1,4 @@
-# 🌱 AgroIA — Asesor de riego inteligente
+# 🌱 Hidrociente IA — Asesor de riego inteligente
 
 App Next.js completa para asesoría agrícola con IA, dirigida a pequeños agricultores de Lima, Perú.
 
@@ -73,11 +73,6 @@ agroia/
     └── crops.ts                 # Data de los 10 cultivos
 ```
 
-## 💰 Costos estimados
-
-- **Anthropic API**: ~$0.003 por conversación (claude-sonnet-4-6)
-- **Open-Meteo**: Gratis ilimitado
-- **Vercel hosting**: Gratis en plan hobby
 
 ## 🔧 Personalización fácil
 
